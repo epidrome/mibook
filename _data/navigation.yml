@@ -1,0 +1,11 @@
+# main links links
+main:
+
+  - title: "Case study"
+    url: /case-study/
+
+  - title: "Gallery"
+    url: /gallery/
+
+  - title: "Quotes"
+    url: /quotes/
