@@ -1,6 +1,6 @@
 ---
 title: 'Minecraft and Making'
-excerpt: "Η ιδέα να δημιουργούνται πίστες από τους τελικούς χρήστες δεν είναι καινούρια και έχει δοκιμαστεί με επιτυχία σε αρκετά παιχνίδια ως πρόσθετη λειτουργία. Το Minecraft είναι από την αρχή σχεδιασμένο με σκοπό οι τελικοί χρήστες να σχεδιάζουν τον εικονικό κόσμο."
+excerpt: "User driven level development has been popular with several video-games, but Minecraft has put the making of video game worlds at the center of the gameplay.
 header:
   image: 'minecraft.png'
   teaser: 'minecraft-thumb.png'
