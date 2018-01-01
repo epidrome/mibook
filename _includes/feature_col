@@ -21,7 +21,7 @@
 
       {% if f.header.teaser %}
         <div class="archive__item-teaser">
-          <img src="/images/{{ f.header.teaser }}">
+          <img src="/assets/images/{{ f.header.teaser }}">
         </div>
       {% endif %}
 
