@@ -29,7 +29,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "ep1dr0me"
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -61,7 +61,7 @@ author:
   dribbble         :
   github           :
   keybase          :
-  twitter          : "ep1dr0me"
+  twitter          : 
 
 # Reading Files
 include:
