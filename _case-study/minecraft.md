@@ -1,12 +1,9 @@
 ---
 title: Minecraft
-excerpt: "Active user participation in the construction of video games is not something new, but Minecraft has been the first to emphasize user innovation."
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: minecraft.png
-  image: minecraft.png
-  teaser: minecraft-thumb.png
+image_url: /assets/images/minecraft.png
+caption: "Active user participation in the construction of video games is not something new, but Minecraft has been the first to emphasize user innovation."
+overlay_color: "#000"
+overlay_filter: "0.5"
 tags:
   - moding
   - making
@@ -15,14 +12,12 @@ categories:
     - case-study
     - definition
 gallery:
-  - url: minecraft.png
-    image_path: minecraft-thumb.png
-    alt: "Minecraft"
-  - url: learntomod.jpg
-    image_path: learntomod-thumb.jpg
-    alt: "Learntomod enables the modification of Minecraft through an accessible blocks-based programming language"
+  - image_url: /assets/images/minecraft.png
+    caption: "Minecraft"
+  - image_url: /assets/images/learntomod.jpg
+    caption: "Learntomod enables the modification of Minecraft through an accessible blocks-based programming language"
 ---
 
 {% include_relative cs-minecraft.md %}
 
-{% include gallery caption="Minecraft gallery." %}
+{% include slides.html caption="Minecraft gallery." %}

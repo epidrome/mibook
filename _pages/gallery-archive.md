@@ -8,7 +8,7 @@ author_profile: false
 {% include base_path %}
 
 <div class="grid__wrapper">
-  {% for post in site.gallery %}
-    {% include archive-single.html type="grid" %}
+  {% for item in site.gallery %}
+    {% include gallery-item.html type="grid" %}
   {% endfor %}
 </div>

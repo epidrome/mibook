@@ -1,6 +1,6 @@
 ---
 title: Steve Jobs on Human Behavior
-excerpt: "It's really hard to design products by focus groups. A lot of times, people don't know what they want until you show it to them."
+caption: "It's really hard to design products by focus groups. A lot of times, people don't know what they want until you show it to them."
 person: Steve Jobs
 categories:
   - quotes

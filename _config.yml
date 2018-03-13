@@ -61,7 +61,7 @@ author:
   dribbble         :
   github           :
   keybase          :
-  twitter          : 
+  twitter          :
 
 # Reading Files
 include:
@@ -126,8 +126,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -213,7 +213,7 @@ defaults:
       path: ""
       type: gallery
     values:
-      layout: splash
+      layout: gallery-figure
       author_profile: false
       share: false
   # _case-study
@@ -221,6 +221,6 @@ defaults:
       path: ""
       type: case-study
     values:
-      layout: splash
+      layout: single
       author_profile: false
       share: false

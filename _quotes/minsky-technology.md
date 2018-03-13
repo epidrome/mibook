@@ -1,6 +1,6 @@
 ---
 title: Marvin Minsky on User Interfaces
-excerpt: 'A computer is like a violin. You can imagine a novice trying ﬁrst a phonograph and then a violin. The latter, he says, sounds terrible.'
+caption: 'A computer is like a violin. You can imagine a novice trying ﬁrst a phonograph and then a violin. The latter, he says, sounds terrible.'
 person: 'Marvin Minsky'
 categories:
   - quotes

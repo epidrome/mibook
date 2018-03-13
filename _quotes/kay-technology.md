@@ -1,6 +1,6 @@
 ---
 title: Alan Kay on Technology
-excerpt: "Technology is anything that wasn't around when you were born."
+caption: "Technology is anything that wasn't around when you were born."
 person: Alan Kay
 categories:
   - quotes

@@ -11,7 +11,7 @@
   <div class="archive__item">
     <div class="archive__item-body">
 
-      <a href="{{ site.[include.id][i].url }}">
+      <a href="{{ site.url }}{{ site.baseurl }}{{ site.[include.id][i].url }}">
 
         {% if f.title %}
           <h2 class="archive__item-title">{{ f.title }}</h2>
@@ -19,21 +19,20 @@
 
       </a>
 
-      {% if f.header.teaser %}
+      {% if f.image_url %}
         <div class="archive__item-teaser">
-          <img src="/assets/images/{{ f.header.teaser }}">
+          {% capture url %}{{ f.image_url }}{% endcapture %}
+          {% assign split_url = url | split: '.' %}
+          {% capture thumb_url %}{{split_url[0]}}-thumb.{{split_url[1]}}{% endcapture %}
+          <img src="{{ site.url }}{{ site.baseurl }}{{ thumb_url }}">
         </div>
       {% endif %}
 
-      {% if f.excerpt %}
+      {% if f.caption %}
         <div class="archive__item-excerpt">
-          {{ f.excerpt | markdownify }}
+          {{ f.caption | markdownify }}
         </div>
       {% endif %}
-
-      <div class="archive__item-excerpt">
-        Explore more in <a href="/{{ include.id }}/">{{ include.id }}</a>
-      </div>
 
     </div>
   </div>
