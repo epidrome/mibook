@@ -1,6 +1,7 @@
 ---
 layout: splash
 author_profile: false
+excerpt: 'Building collaborative systems for an ecosystem of users, devices, and services.'
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -8,9 +9,8 @@ header:
   cta_label: "Buy the greek e-book"
   cta_url: "https://leanpub.com/pibook"
   caption: "Photo credit: [**SRI International**](https://www.sri.com)"
-caption: 'Building collaborative systems for an ecosystem of users, devices, and services.'
 intro:
-    - excerpt: 'The book `Making Interactivity` describes the next stage in the evolution of `Interaction Design`. Instead of low- and hi-fidelity prototypes, it encourages the lean development of interactive minimum viable products (MVP).'
+  excerpt: 'The book `Making Interactivity` describes the next stage in the evolution of `Interaction Design`. Instead of low- and hi-fidelity prototypes, it encourages the lean development of interactive minimum viable products (MVP).'
 ---
 
 <div class="feature__wrapper">
