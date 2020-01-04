@@ -9,4 +9,11 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins
+#
+
+gem "minimal-mistakes-jekyll"
+
+group :jekyll_plugins do
+  gem "jekyll-include-cache"
+end
