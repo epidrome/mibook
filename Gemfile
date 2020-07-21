@@ -9,9 +9,9 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-# gem "github-pages", group: :jekyll_plugins
-gem "jekyll", "~> 3.8.6"
-gem "minimal-mistakes-jekyll"
+gem "github-pages", group: :jekyll_plugins
+#gem "jekyll", "~> 3.8.6"
+#gem "minimal-mistakes-jekyll"
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
@@ -21,5 +21,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
+  gem "jekyll-remote-theme"
 end
 
